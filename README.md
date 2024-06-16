@@ -1,4 +1,4 @@
-# EXPNext Country Specific Functionality for Kenya
+# ERPNext Country Specific Functionality for Kenya
 
 ## Includes:
 
