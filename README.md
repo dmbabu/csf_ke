@@ -85,4 +85,4 @@ Using bench, [install ERPNext](https://github.com/frappe/bench#installation) as 
 Once ERPNext is installed, add CSF_KE app to your bench by running:
 
 ```sh
-$ bench get-app https://github.com/navariltd/CSF_KE.git
+$ bench get-app https://github.com/dmbabu/csf_ke
