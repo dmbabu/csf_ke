@@ -59,7 +59,9 @@ fixtures = [
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-
+# doctype_js = {
+#     "Leave Application" : "public/js/leave_application.js",
+# }
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -123,13 +125,15 @@ fixtures = [
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
+doc_events = {
 # 	"*": {
 # 		"on_update": "method",
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
 # 	}
-# }
+
+"Leave Application": {"validate": "csf_ke.csf_ke.custom.leave_application.validate"}
+}
 
 # Scheduled Tasks
 # ---------------
