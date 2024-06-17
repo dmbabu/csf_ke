@@ -14,10 +14,7 @@ required_apps = ["frappe/erpnext"]
 fixtures = [
     {
         "doctype": "Custom Field",
-        "filters": [
-            [
-                "name",
-                "in",
+        "filters": [["name","in",
                 (
                     "Employee-national_id",
                     "Employee-nhif_no",
@@ -26,8 +23,7 @@ fixtures = [
                     "Salary Component-p9a_tax_deduction_card_type",
                    
                 ),
-            ]
-        ],
+            ]],
     },
     {
         "doctype": "Salary Component"
@@ -35,6 +31,14 @@ fixtures = [
     {
         "doctype": "Salary Structure"
     },
+    {
+        "dt": "Workspace",
+        "filters": [["name", "in", 
+                [
+                    "Home"
+                ]
+        ]]
+    }
 ]
 
 # Includes in <head>
