@@ -38,6 +38,14 @@ fixtures = [
                     "Home"
                 ]
         ]]
+    },
+     {
+        "dt": "Custom HTML Block",
+        "filters": [["name", "in", 
+                [
+                    "ESS Mobile App"
+                ]
+        ]]
     }
 ]
 

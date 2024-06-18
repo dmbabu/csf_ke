@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<center>\n    <img height=\"200\" width=\"200\" src=\"/files/nesscale_ess_qrcode.png\" alt=\"ESS on google Play\">\n    <br><br><h4>Scan the code to download the Employee Self Service App</h4>\n</center>",
+  "modified": "2024-06-18 20:35:43.214467",
+  "name": "ESS Mobile App",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ }
+]
