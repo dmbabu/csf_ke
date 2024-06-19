@@ -12,41 +12,41 @@ required_apps = ["frappe/erpnext"]
 
 
 fixtures = [
-    {
-        "doctype": "Custom Field",
-        "filters": [["name","in",
-                (
-                    "Employee-national_id",
-                    "Employee-nhif_no",
-                    "Employee-nssf_no",
-                    "Employee-tax_id",
-                    "Salary Component-p9a_tax_deduction_card_type",
+    # {
+    #     "doctype": "Custom Field",
+    #     "filters": [["name","in",
+    #             (
+    #                 "Employee-national_id",
+    #                 "Employee-nhif_no",
+    #                 "Employee-nssf_no",
+    #                 "Employee-tax_id",
+    #                 "Salary Component-p9a_tax_deduction_card_type",
                    
-                ),
-            ]],
-    },
-    {
-        "doctype": "Salary Component"
-    },
-    {
-        "doctype": "Salary Structure"
-    },
-    {
-        "dt": "Workspace",
-        "filters": [["name", "in", 
-                [
-                    "Home"
-                ]
-        ]]
-    },
-     {
-        "dt": "Custom HTML Block",
-        "filters": [["name", "in", 
-                [
-                    "ESS Mobile App"
-                ]
-        ]]
-    }
+    #             ),
+    #         ]],
+    # },
+    # {
+    #     "doctype": "Salary Component"
+    # },
+    # {
+    #     "doctype": "Salary Structure"
+    # },
+    # {
+    #     "dt": "Workspace",
+    #     "filters": [["name", "in", 
+    #             [
+    #                 "Home"
+    #             ]
+    #     ]]
+    # },
+    #  {
+    #     "dt": "Custom HTML Block",
+    #     "filters": [["name", "in", 
+    #             [
+    #                 "ESS Mobile App"
+    #             ]
+    #     ]]
+    # }
 ]
 
 # Includes in <head>
