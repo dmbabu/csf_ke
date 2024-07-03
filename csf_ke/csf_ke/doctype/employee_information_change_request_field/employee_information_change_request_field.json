@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "creation": "2024-07-03 12:52:53.793201",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sb0",
+  "cb0",
+  "field",
+  "change_reason",
+  "old_value",
+  "new_value",
+  "cb1",
+  "supporting_doc"
+ ],
+ "fields": [
+  {
+   "fieldname": "field",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Field",
+   "options": "Date of Birth\nDate of Joining\nFirst Name\nMiddle Name\nLast Name\nNational ID\nNSSF No\nNHIF No\nPIN No\nPassport No\nPassport Place of Issue\nPassport Date of Issue\nPassport Valid Up To\nMobile\nBank Name\nBank AC No\nMarital Status\nBlood Group\nHealth Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "old_value",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Old Value"
+  },
+  {
+   "fieldname": "new_value",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "New Value"
+  },
+  {
+   "fieldname": "sb0",
+   "fieldtype": "Section Break",
+   "label": "Fields"
+  },
+  {
+   "fieldname": "change_reason",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Reason for Change",
+   "options": "Update\nMissing\nErroneous",
+   "reqd": 1
+  },
+  {
+   "fieldname": "supporting_doc",
+   "fieldtype": "Attach",
+   "label": "Supporting Document"
+  },
+  {
+   "fieldname": "cb0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-03 16:36:07.003665",
+ "modified_by": "Administrator",
+ "module": "CSF KE",
+ "name": "Employee Information Change Request Field",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "creation": "2024-07-03 16:25:03.422303",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sb0",
+  "cb0",
+  "institution",
+  "qualification",
+  "subjects",
+  "cb1",
+  "level",
+  "year",
+  "grade",
+  "supporting_doc"
+ ],
+ "fields": [
+  {
+   "fieldname": "sb0",
+   "fieldtype": "Section Break",
+   "label": "Educational Qualifications"
+  },
+  {
+   "fieldname": "institution",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "School/University",
+   "reqd": 1
+  },
+  {
+   "fieldname": "qualification",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Qualification",
+   "reqd": 1
+  },
+  {
+   "fieldname": "subjects",
+   "fieldtype": "Small Text",
+   "label": "Major/Optional Subjects"
+  },
+  {
+   "fieldname": "level",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Level",
+   "options": "Graduate\nPostgraduate\nUndergraduate",
+   "reqd": 1
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Year",
+   "reqd": 1
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Grade",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cb0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supporting_doc",
+   "fieldtype": "Attach",
+   "label": "Supporting Document"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-03 16:47:34.374896",
+ "modified_by": "Administrator",
+ "module": "CSF KE",
+ "name": "Employee Information Change Request Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
